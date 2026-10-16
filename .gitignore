@@ -1,0 +1,89 @@
+# ── 원자료(강의 필기·첨부 이미지) — 로컬에만 둔다 ──
+/RAW/
+/,/
+
+# Copilot 플러그인 캐시
+.copilot/
+
+# Obsidian 창 배치 등 자주 바뀌는 개인 상태
+.obsidian/workspace*.json
+.obsidian/cache
+.trash/
+
+# OS 잡파일
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── 인증키·비밀번호 ─────────────────────────────
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.kdbx
+id_rsa*
+id_ed25519*
+*credentials*.json
+*secret*
+*token*.txt
+비밀번호*
+*비밀번호*
+
+# ── 개인정보가 든 자료 ──────────────────────────
+# 이름으로 거르기
+*개인정보*
+*주민등록*
+*신분증*
+*여권*
+*통장*
+*계좌*
+*성적표*
+*성적증명*
+*이력서*
+*연락처*
+# 폴더로 거르기: 어디에 있든 이 이름의 폴더는 통째로 안 올라간다
+비공개/
+private/
+
+# ── 큰 원본 데이터 ──────────────────────────────
+# 표·통계 데이터
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.parquet
+*.feather
+*.h5
+*.sav
+*.dta
+*.sqlite
+*.db
+# GIS 데이터
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.sbn
+*.sbx
+*.gpkg
+*.gdb/
+*.tif
+*.tiff
+*.geojson
+*.las
+*.laz
+# 압축·영상
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+*.mp4
+*.mov
+*.avi
+# 원본 데이터 폴더 관례
+데이터원본/
+raw-data/
